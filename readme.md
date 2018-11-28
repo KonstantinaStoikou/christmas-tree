@@ -1,6 +1,6 @@
 ## C program that outputs a christmas tree with random ornaments
 You can change the LINES definition to increase or decrease the size of the tree.  
-example output for LINES 10:
+Example output for LINES 10:
 ```
          *
         ***
