@@ -1,17 +1,25 @@
-## C program that outputs a christmas tree with random ornaments
-You can change the LINES definition to increase or decrease the size of the tree.  
-Example output for LINES 10:
+## C program that outputs a colored christmas tree with random ornaments
+Compile and run:
 ```
-         *
+gcc -o tree christmans_tree.c
+./tree
+```
+Example:
+```
+$ gcc -o tree christmans_tree.c
+$ ./tree
+Please give the height of the tree (how many lines to be).
+20
+         0
         ***
-       O**O*
-      ***O***
+       *****
+      ****0**
      *********
-    ***********
-   O*********O**
-  ***O*****O*****
- *******O*********
-********O********O*
+    *****0*0***
+   ******0******
+  ***0***0*******
+ ***************0*
+*******************
       ######
       ######
       ######
